@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane layoutX="5.0" prefHeight="350.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tiket.TicketSlipController">
+   <children>
+      <ImageView fitHeight="363.0" fitWidth="908.0" layoutX="-8.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../Login%20Page/tiket.in%20slip%20revisi%202.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="filmTitleLabel" alignment="CENTER" layoutX="111.0" layoutY="74.0" prefHeight="89.0" prefWidth="629.0" text="(Judul film)" textAlignment="RIGHT" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Demibold Italic" size="30.0" />
+         </font>
+      </Label>
+
+      <!-- Date -->
+      <Label layoutX="268.0" layoutY="156.0" text="Tanggal:" textFill="WHITE">
+         <font>
+            <Font name="Gadugi" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="dateLabel" layoutX="376.0" layoutY="156.0" text="(tanggal)" textFill="WHITE">
+         <font>
+            <Font name="Gadugi" size="25.0" />
+         </font>
+      </Label>
+
+      <!-- Time -->
+      <Label layoutX="268.0" layoutY="269.0" text="Jam:" textFill="WHITE">
+         <font>
+            <Font name="Gadugi" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="timeLabel" layoutX="377.0" layoutY="269.0" text="(jam)" textFill="WHITE">
+         <font>
+            <Font name="Gadugi" size="25.0" />
+         </font>
+      </Label>
+
+      <!-- Email -->
+      <Label layoutX="268.0" layoutY="233.0" text="Email:" textFill="WHITE">
+         <font>
+            <Font name="Gadugi" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="emailLabel" layoutX="376.0" layoutY="233.0" text="(email booking)" textFill="WHITE">
+         <font>
+            <Font name="Gadugi" size="25.0" />
+         </font>
+      </Label>
+
+      <!-- Ticket Count -->
+      <Label layoutX="269.0" layoutY="305.0" text="Tiket:" textFill="WHITE">
+         <font>
+            <Font name="Gadugi" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="ticketCountLabel" layoutX="377.0" layoutY="305.0" text="(Jumlah tiket)" textFill="WHITE">
+         <font>
+            <Font name="Gadugi" size="25.0" />
+         </font>
+      </Label>
+
+      <!-- Seat -->
+      <Label layoutX="268.0" layoutY="197.0" text="Kursi:" textFill="WHITE">
+         <font>
+            <Font name="Gadugi" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="seatLabel" layoutX="376.0" layoutY="197.0" text="(Kursi)" textFill="WHITE">
+         <font>
+            <Font name="Gadugi" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="695.0" layoutY="244.0" prefHeight="36.0" prefWidth="128.0" text="TIKET.IN" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Lucida Sans Demibold Italic" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
