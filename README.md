@@ -16,13 +16,5 @@ Aplikasi pemesanan tiket bioskop berbasis Java yang dibangun menggunakan **Eclip
 - MySQL Database (lokal)
 - JDBC (Java Database Connectivity)
 
-## 🏗️ Struktur Proyek
-/src
-├── controller/
-├── model/
-├── view/
-└── main.java
-/database
-└── bioskop.sql
 
-@evandes
+--    @Catalyst    --
